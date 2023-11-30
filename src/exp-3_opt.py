@@ -7,25 +7,15 @@ import numpy as np
 import pandas as pd
 import torch
 from datasets import load_dataset
-print("datasets")
 from transformers import DataCollatorForSeq2Seq, Seq2SeqTrainingArguments, Seq2SeqTrainer
-print("datasets")
 from transformers import AutoTokenizer
-print("datasets")
 from transformers import AutoModelForSeq2SeqLM, AutoModelForCausalLM, DataCollatorForSeq2Seq, TrainingArguments, Trainer
-print("datasets")
 from transformers import pipeline
-print("datasets")
 from transformers import DataCollatorForLanguageModeling
-print("datasets")
 from transformers.data.data_collator import DataCollatorMixin as HfDataCollatorMixin
-print("datasets")
 from transformers.data.data_collator import torch_default_data_collator
-print("datasets")
 import utils
-print("datasets")
 from utils import compute_arc_f1, compute_fpr, compute_rougeL, compute_falseqa_score
-print("datasets")
 from torch.nn import functional as F
 print("finish imports")
 
@@ -75,14 +65,14 @@ class MyTrainer(Trainer):
 
 
 parser = argparse.ArgumentParser(description='Input hyper-parameters')
-parser.add_argument("--model_parallel", type=bool, default=False)
-# parser.add_argument('--model_name', type=str, default='opt-2.7b-da')
-parser.add_argument('--model_name', type=str, default='opt-1.3b-da')
-parser.add_argument('--seed', type=int, default=32)
+parser.add_argument("--model_parallel", type=bool, default=True)
+parser.add_argument('--model_name', type=str, default='opt-2.7b-da')
+# parser.add_argument('--model_name', type=str, nargs='+', default=['opt-1.3b-da'])
+parser.add_argument('--seed', type=int, default=34)
 parser.add_argument('--prompt_text', type=str, default='')
 parser.add_argument('--max_length', type=int, default=128)
 parser.add_argument('--batch_size', type=int, default=32)
-parser.add_argument('--epoch', type=int, default=5)
+parser.add_argument('--epoch', type=int, default=8)
 parser.add_argument('--lr', type=float, default=1e-5)
 parser.add_argument('--time_stamp', type=str, default='none')
 parser.add_argument('--test_only', type=str, default='False')
@@ -111,14 +101,15 @@ token_loss = input_args.token_loss
 loss_rate = input_args.loss_rate
 save_dir = f"../trained_model/exp-3/train_exp-3_scale-{scale}_{model_name}_{time_stamp}_{input_args.seed}"
 if test_only == 'True': ############################################################# change!!!!!!!!!!!!!!!!!!!!
-    model_checkpoint = "facebook/opt-1.3b" ################################
-    # model_checkpoint = f'../trained_model/exp-3/{model_name}'
+    model_checkpoint = f'../trained_model/exp-3/{model_name}'
+    # model_checkpoint = f'facebook/{model_name}' ################################
+    # model_checkpoint = "facebook/opt-1.3b" ################################
     seed = int(model_name[model_name.rfind('_') + 1:])
     # tokenizer = AutoTokenizer.from_pretrained(f"{model_checkpoint}/best")
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
 
 else:
-    model_checkpoint = "facebook/opt-1.3b" ##################################
+    model_checkpoint = f'facebook/{model_name}' ##################################
     # model_checkpoint = model_path + f"{model_name}"
     seed = input_args.seed
     tokenizer = AutoTokenizer.from_pretrained(model_checkpoint)
@@ -250,11 +241,10 @@ def train():
         model = AutoModelForCausalLM.from_pretrained(model_checkpoint, ignore_mismatched_sizes=True)
     else:
         model = AutoModelForCausalLM.from_pretrained(model_checkpoint)
-        # Use a pipeline as a high-level helper
-        # model = pipeline("text-generation", model="facebook/opt-1.3b")
     # model = model_to_device(model, model_name)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(device)
+    print(device)
     print("model load done.")
     
 
