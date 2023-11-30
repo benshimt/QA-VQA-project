@@ -66,11 +66,11 @@ save_dir = f"../trained_model/exp-3/train_exp-3_scale-{scale}_{model_name}_{time
 if test_only == 'True':
     model_checkpoint = f'../trained_model/exp-3/{model_name}'
     seed = int(model_name[model_name.rfind('_') + 1:])
-    tokenizer = T5Tokenizer.from_pretrained('../hg_cache/macaw-tokenizer')
+    tokenizer = T5Tokenizer.from_pretrained(model_checkpoint)
 else:
-    model_checkpoint = model_path + f"{model_name}"
+    model_checkpoint = f"allenai/{model_name}"
     seed = input_args.seed
-    tokenizer = T5Tokenizer.from_pretrained('../hg_cache/macaw-tokenizer')
+    tokenizer = T5Tokenizer.from_pretrained(model_checkpoint)
 setup_seed(seed)
 
 
@@ -147,11 +147,11 @@ def train():
     print("load data start.")
     if scale != 1187:
         raw_datasets = load_dataset('csv', data_files={
-            'train': f'../dataset/exp-3/train_{scale}shots_{input_args.seed}seed.csv', 'validation': f'../dataset/exp-3/valid_{scale}shots_{input_args.seed}seed.csv'
+            'train': f'./dataset/exp-3/train_{scale}shots_{input_args.seed}seed.csv', 'validation': f'./dataset/exp-3/valid_{scale}shots_{input_args.seed}seed.csv'
         })
     else:
         raw_datasets = load_dataset('csv', data_files={
-            'train': '../dataset/exp-3/train_1187.csv', 'validation': '../dataset/exp-3/valid_1187.csv'
+            'train': './dataset/exp-3/train_1187.csv', 'validation': './dataset/exp-3/valid_1187.csv'
         })
     print("load data done.")
 
@@ -188,6 +188,7 @@ def train():
     )
     print("set training arguments done.")
 
+    
 
     print("data collator load start.")
     data_collator = DataCollatorForSeq2Seq(tokenizer, model=model)
