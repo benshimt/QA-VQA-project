@@ -1,0 +1,102 @@
+,captions,designer_explanation,question_answering_pairs,image_url,selected_caption,need_fix,question,answer,question_answer_pair,normal_question,weird_answer,crowd_captions,gpt4_captioning,image_id
+0,a snow plow driving down a snowy street,,,,,,,,,,,"""a snow plow driving down a snowy street""","""Braving the storm: A snowplow clears the way through heavy snowfall.""",1
+1,a red and white life preserver floating in the water,,,,,,,,,,,"""a red and white life preserver floating in the water""","""Floating Hope: A lifebuoy drifts peacefully on the calm ocean, ready to offer a lifeline.""",2
+2,a tall ship sailing in the ocean at sunset,,,,,,,,,,,"""a tall ship sailing in the ocean at sunset""","""Majestic voyage: A grand sailing ship navigates the open seas at sunset.""",3
+3,a man standing in front of a blackboard,,,,,,,,,,,"""a man standing in front of a blackboard""","""Deep in thought, the mathematician passionately explains complex equations on the chalkboard.""",4
+4,santa claus riding on a sleigh with reindeer,,,,,,,,,,,"""santa claus riding on a sleigh with reindeer""","""Santa Claus and his reindeer dash through a snowy forest on Christmas Eve, spreading holiday cheer.""",5
+5,a pregnant woman holding a bottle of water,,,,,,,,,,,"""a pregnant woman holding a bottle of water""","""Staying hydrated and healthy for two 💧🤰""",6
+6,blue pacifier in baby's mouth,,,,,,,,,,,"""blue pacifier in baby's mouth""","""Bright blue eyes and a pacifier: the perfect combination of cuteness!""",7
+7,a bride and groom pose for a photo in a church,,,,,,,,,,,"""a bride and groom pose for a photo in a church""","""A moment of pure joy and love on their special day.""",8
+8,an image of a tank in the middle of a puddle,,,,,,,,,,,"""an image of a tank in the middle of a puddle""","""Power and Precision: A tank forges through rugged terrain, reflecting its might in a muddy puddle.""",9
+9,a woman is riding a horse,,,,,,,,,,,"""a woman is riding a horse""","""Riding through the storm with determination and grace.""",10
+10,a white coffee mug on a gray surface,,,,,,,,,,,"""a white coffee mug on a gray surface""","""A simple white mug, perfect for your morning coffee or tea.""",11
+11,an egyptian relief depicting an egyptian god,,,,,,,,,,,"""an egyptian relief depicting an egyptian god""","""Ancient Egyptian relief depicting a figure adorned in blue, surrounded by hieroglyphics.""",12
+12,"a table with two glasses of wine, a plate of food and a view of the ocean",,,,,,,,,,,"""a table with two glasses of wine, a plate of food and a view of the ocean""","""An enchanting dinner by the sea, with a breathtaking sunset and a majestic ship sailing in the distance.""",13
+13,a car with a bow on it,,,,,,,,,,,"""a car with a bow on it""","""A sleek new ride wrapped with a bow, ready to make someone's day!""",14
+14,a blue pillow on a white background,,,,,,,,,,,"""a blue pillow on a white background""","""Cozy up with this plush, deep blue pillow – perfect for adding a touch of comfort and style to any space.""",15
+15,a baby chick,,,,,,,,,,,"""a baby chick""","""New Beginnings: A fluffy chick emerges from its shell, ready to explore the world.""",16
+16,an open glass bottle with a lighted candle in it,,,,,,,,,,,"""an open glass bottle with a lighted candle in it""","""Serenity in a Bottle: Candlelight Reflections""",17
+17,a woman in a coal miner's hat and gloves,,,,,,,,,,,"""a woman in a coal miner's hat and gloves""","""Strength and Resilience: A Miner’s Determination""",18
+18,a steak on a plate with a knife and fork,,,,,,,,,,,"""a steak on a plate with a knife and fork""","""Elegant presentation of a perfectly cooked steak, garnished with fresh herbs and accompanied by a delicate sauce.""",19
+19,a house in the middle of a field,,,,,,,,,,,"""a house in the middle of a field""","""An eerie storm brews over an abandoned house, illuminated by a striking bolt of lightning.""",20
+20,tupac in a bandana standing in front of a car,,,,,,,,,,,"""tupac in a bandana standing in front of a car""","""Embracing the streets with style and confidence.""",21
+21,a painting of a woman looking at herself in a mirror,,,,,,,,,,,"""a painting of a woman looking at herself in a mirror""","""Reflecting on the past, contemplating the future.""",22
+22,a woodpecker is standing in front of a hole in a tree,,,,,,,,,,,"""a woodpecker is standing in front of a hole in a tree""","""A woodpecker diligently carves out a new home in the trunk of a tree.""",23
+23,a train on the tracks,,,,,,,,,,,"""a train on the tracks""","""Majestic steam locomotive chugging through the countryside, evoking a sense of nostalgia and adventure.""",24
+24,a person pouring coffee into a cup,,,,,,,,,,,"""a person pouring coffee into a cup""","""Pouring perfection: A fresh cup of coffee to start the day right.""",25
+25,a young boy vacuuming the floor with a vacuum cleaner,,,,,,,,,,,"""a young boy vacuuming the floor with a vacuum cleaner""","""Starting young: Little helper mastering the art of vacuuming!""",26
+26,a black glove on a wooden floor,,,,,,,,,,,"""a black glove on a wooden floor""","""A well-worn glove rests on a wooden surface, telling tales of hard work and dedication.""",27
+27,a red telephone box sits in front of a brick building,,,,,,,,,,,"""a red telephone box sits in front of a brick building""","""A classic red telephone booth stands as a nostalgic symbol on a quiet, cobblestone street.""",28
+28,an older woman with a big belly posing for a photo,,,,,,,,,,,"""an older woman with a big belly posing for a photo""","""Embracing the beauty of every stage in life with a warm smile and a kind heart.""",29
+29,three eggs in a nest,,,,,,,,,,,"""three eggs in a nest""","""Nature's Cradle: Three eggs nestled safely in a beautifully crafted bird's nest.""",30
+30,a close up of a pineapple on a plant,,,,,,,,,,,"""a close up of a pineapple on a plant""","""Nature's crown: A vibrant pineapple thriving in its tropical habitat.""",31
+31,marilyn monroe reading a book,,,,,,,,,,,"""marilyn monroe reading a book""","""Lost in the pages of a captivating story.""",32
+32,a man sitting in a cave with a fire,,,,,,,,,,,"""a man sitting in a cave with a fire""","""Ancient Wisdom: A Caveman Contemplates the Flames""",33
+33,an old piano is sitting on a wooden floor,,,,,,,,,,,"""an old piano is sitting on a wooden floor""","""An old piano, rich with history and character, awaits its next melody.""",34
+34,a man combing his hair,,,,,,,,,,,"""a man combing his hair""","""Is it time for a haircut already?""",35
+35,a person skiing down a snow covered slope,,,,,,,,,,,"""a person skiing down a snow covered slope""","""Carving through fresh powder under a brilliant winter sun.""",36
+36,a woman standing in the shadow of a building,,,,,,,,,,,"""a woman standing in the shadow of a building""","""Embracing the shadows, finding light within.""",37
+37,a cake with a variety of fruits on it,,,,,,,,,,,"""a cake with a variety of fruits on it""","""A symphony of fresh fruits atop a luscious, creamy cake – a feast for the eyes and the taste buds!""",38
+38,a wooden hourglass with sand inside,,,,,,,,,,,"""a wooden hourglass with sand inside""","""Time's Passage: The Elegance of an Hourglass""",39
+39,Dr Evil with a bald head holding a cat,,,,,,,,,,,"""Dr Evil with a bald head holding a cat""","""Plotting world domination with my feline accomplice.""",40
+40,an owl is flying over a tree in the woods,,,,,,,,,,,"""an owl is flying over a tree in the woods""","""An owl gracefully descends onto a forest log, bathed in the warm glow of the setting sun.""",41
+41,an eagle is standing on top of a rock,,,,,,,,,,,"""an eagle is standing on top of a rock""","""Majestic and powerful, the eagle surveys its domain from a rocky perch.""",42
+42,an old man smoking a cigarette,,,,,,,,,,,"""an old man smoking a cigarette""","""Reflecting on a lifetime of stories, one puff at a time.""",43
+43,a cat in a field of yellow flowers,,,,,,,,,,,"""a cat in a field of yellow flowers""","""Majestic feline exploring a field of golden blooms.""",44
+44,Freddie Mercury holding a microphone,,,,,,,,,,,"""Freddie Mercury holding a microphone""","""Rocking the stage with iconic style and presence.""",45
+45,a traffic light on a pole,,,,,,,,,,,"""a traffic light on a pole""","""Traffic Light Trio: Red, Yellow, and Green Signals in Perfect Harmony""",46
+46,a colorful rubik cube on a gray background,,,,,,,,,,,"""a colorful rubik cube on a gray background""","""An unsolved Rubik's Cube with vibrant colors, waiting for the next move.""",47
+47,the statue of liberty in new york city,,,,,,,,,,,"""the statue of liberty in new york city""","""Majestic and timeless, the Statue of Liberty stands tall against a dramatic sky.""",48
+48,a red double decker bus in london,,,,,,,,,,,"""a red double decker bus in london""","""Iconic red double-decker bus passing by Big Ben under dramatic skies in London.""",49
+49,a koala bear sitting in a tree on a dark background,,,,,,,,,,,"""a koala bear sitting in a tree on a dark background""","""Adorable koala clings to a tree, showcasing its fluffy ears and curious eyes.""",50
+50,a pink gumball machine on a blue background,,,,,,,,,,,"""a pink gumball machine on a blue background""","""Colorful nostalgia: A classic gumball machine filled with vibrant treats.""",51
+51,superman is standing in front of a gray background,,,,,,,,,,,"""superman is standing in front of a gray background""","""Standing tall and ready to protect, the iconic superhero embodies strength and hope.""",52
+52,a painting of the eiffel tower at night,,,,,,,,,,,"""a painting of the eiffel tower at night""","""An enchanting evening in Paris, with the Eiffel Tower illuminated against a moody, rain-kissed sky.""",53
+53,"the leaning tower of pisa, italy",,,,,,,,,,,"""the leaning tower of pisa, italy""","""Leaning Tower of Pisa standing tall under dramatic skies.""",54
+54,two girls in renaissance dresses are posing for a painting,,,,,,,,,,,"""two girls in renaissance dresses are posing for a painting""","""Elegance of the Renaissance: Two young women in period attire, captured in a timeless portrait.""",55
+55,a birthday cake with a slice taken out of it,,,,,,,,,,,"""a birthday cake with a slice taken out of it""","""Celebrating sweet moments with a deliciously layered cake and glowing candles.""",56
+56,a yellow pikachu is standing on a gray background,,,,,,,,,,,"""a yellow pikachu is standing on a gray background""","""Adorable Pikachu ready to spark some joy!""",57
+57,a turtle is sitting on rocks in a pond,,,,,,,,,,,"""a turtle is sitting on rocks in a pond""","""Enjoying a peaceful moment by the water's edge.""",58
+58,a slice of watermelon on a wooden table,,,,,,,,,,,"""a slice of watermelon on a wooden table""","""Freshly sliced watermelon, ready to quench your thirst on a hot summer day.""",59
+59,a rooster is standing on a dirt road,,,,,,,,,,,"""a rooster is standing on a dirt road""","""Majestic rooster standing proudly on a country path.""",60
+60,a close up of a person wearing roller skates,,,,,,,,,,,"""a close up of a person wearing roller skates""","""Ready to roll into the weekend with these classic roller skates!""",61
+61,a close up of a person's skates on an ice rink,,,,,,,,,,,"""a close up of a person's skates on an ice rink""","""Gliding gracefully on the ice, capturing the elegance of figure skating.""",62
+62,a person kicking a soccer ball on a field,,,,,,,,,,,"""a person kicking a soccer ball on a field""","""Precision and power on the pitch: A soccer player poised to make a game-changing move.""",63
+63,charlie chaplin photograph - charlie chaplin fine art print,,,,,,,,,,,"""charlie chaplin photograph - charlie chaplin fine art print""","""A classic portrait of a man in a bowler hat and suit, exuding timeless charm and elegance.""",64
+64,a bowling ball hitting the pins on a wooden floor,,,,,,,,,,,"""a bowling ball hitting the pins on a wooden floor""","""Striking Success: The Perfect Bowling Moment""",65
+65,a woman holding an umbrella in the rain,,,,,,,,,,,"""a woman holding an umbrella in the rain""","""Embracing the solitude of a rainy evening.""",66
+66,a clock on a table,,,,,,,,,,,"""a clock on a table""","""Timeless elegance: A classic clock marking the passage of time.""",67
+67,a bowl of soup on a wooden table,,,,,,,,,,,"""a bowl of soup on a wooden table""","""Warm and comforting chicken noodle soup, perfect for a cozy meal.""",68
+68,a basketball is going through the hoop,,,,,,,,,,,"""a basketball is going through the hoop""","""Perfect shot! The basketball swishes through the net.""",69
+69,a cone of ice cream,,,,,,,,,,,"""a cone of ice cream""","""Indulge in a delightful treat with this creamy, double-scoop ice cream cone!""",70
+70,a plate of spaghetti with tomato sauce and basil,,,,,,,,,,,"""a plate of spaghetti with tomato sauce and basil""","""A simple yet delicious plate of spaghetti with tomato sauce, garnished with fresh basil.""",71
+71,a view of the interior of a car on a desert road,,,,,,,,,,,"""a view of the interior of a car on a desert road""","""Endless horizons and the open road: the perfect setting for a journey in luxury.""",72
+72,a beautiful fortune teller holding a crystal ball,,,,,,,,,,,"""a beautiful fortune teller holding a crystal ball""","""Peering into the Mystical Unknown: The Enchantress and Her Crystal Ball""",73
+73,albert einstein reading a book,,,,,,,,,,,"""albert einstein reading a book""","""Deep in thought, a man engrossed in his book amidst a library's quiet ambiance.""",74
+74,a stop sign in the middle of a street,,,,,,,,,,,"""a stop sign in the middle of a street""","""Pause and reflect: A quiet neighborhood intersection with a prominent stop sign.""",75
+75,a woman in a wedding dress holding a bouquet of flowers,,,,,,,,,,,"""a woman in a wedding dress holding a bouquet of flowers""","""Radiant bride with a bouquet of flowers, capturing timeless elegance and grace.""",76
+76,a man sleeping in a bed with a pillow,,,,,,,,,,,"""a man sleeping in a bed with a pillow""","""Dreaming in Comfort: A peaceful slumber wrapped in warmth and tranquility.""",77
+77,a woman running with an israeli flag,,,,,,,,,,,"""a woman running with an israeli flag""","""Triumphant athlete celebrates victory with the Israeli flag.""",78
+78,a crocodile in the water with its mouth open,,,,,,,,,,,"""a crocodile in the water with its mouth open""","""Majestic alligator basking in the serene waters, showcasing its powerful jaws and intricate scales.""",79
+79,a moose standing in a forest,,,,,,,,,,,"""a moose standing in a forest""","""A majestic moose stands tall in the serene forest, bathed in the soft glow of the morning light.""",80
+80,a kiwi bird is standing in the grass,,,,,,,,,,,"""a kiwi bird is standing in the grass""","""A fluffy kiwi bird exploring the lush green grass.""",81
+81,the sphinx and pyramids in egypt,,,,,,,,,,,"""the sphinx and pyramids in egypt""","""Majestic Sphinx and Pyramids under a Vibrant Sky in the Egyptian Desert""",82
+82,argentina's lionel messi holding the world cup trophy,,,,,,,,,,,"""argentina's lionel messi holding the world cup trophy""","""Triumphant moment: A football player kisses the World Cup trophy, celebrating victory on the grandest stage.""",83
+83,a polar bear standing in a body of water,,,,,,,,,,,"""a polar bear standing in a body of water""","""A majestic polar bear wades through icy Arctic waters at dawn, showcasing the serene beauty of its natural habitat.""",84
+84,a hippopotamus swimming in a body of water,,,,,,,,,,,"""a hippopotamus swimming in a body of water""","""Majestic hippo emerges from the water at dusk, showcasing the serene beauty of the wild.""",85
+85,a little girl in a red cloak next to a wolf,,,,,,,,,,,"""a little girl in a red cloak next to a wolf""","""Little Red Riding Hood and her loyal wolf companion, united in an enchanting and mysterious bond.""",86
+86,obama and vladimir putin,,,,,,,,,,,"""obama and vladimir putin""","""Two leaders meet for a diplomatic handshake against a backdrop of their national flags.""",87
+87,kanye west is wearing a brown jacket and a necklace,,,,,,,,,,,"""kanye west is wearing a brown jacket and a necklace""","""Portrait of a man exuding confidence and style in a dramatic, moody setting.""",88
+88,a group of penguins standing on ice,,,,,,,,,,,"""a group of penguins standing on ice""","""Majestic king penguins stand tall on the icy landscape, with snow-capped mountains in the background.""",89
+89,a walrus is sitting on ice,,,,,,,,,,,"""a walrus is sitting on ice""","""Majestic walrus basking in the icy Arctic waters.""",90
+90,a panda bear eating bamboo in a forest,,,,,,,,,,,"""a panda bear eating bamboo in a forest""","""A panda enjoys a peaceful meal of bamboo in its lush forest habitat.""",91
+91,a close up of an orchid flower on a dark background,,,,,,,,,,,"""a close up of an orchid flower on a dark background""","""An exquisite orchid in full bloom, showcasing its vibrant colors and intricate patterns against a dark background.""",92
+92,a butterfly is sitting on top of a purple flower,,,,,,,,,,,"""a butterfly is sitting on top of a purple flower""","""A vibrant butterfly delicately perched on a blooming flower, showcasing nature's intricate beauty.""",93
+93,an ostrich standing in the middle of a desert,,,,,,,,,,,"""an ostrich standing in the middle of a desert""","""Majestic ostrich standing tall in the serene African savannah.""",94
+94,a camel standing in the desert,,,,,,,,,,,"""a camel standing in the desert""","""Majestic camel standing tall in the serene desert landscape under a clear blue sky.""",95
+95,a whale shark swimming in the ocean,,,,,,,,,,,"""a whale shark swimming in the ocean""","""Majestic whale shark gliding gracefully through the crystal-clear waters.""",96
+96,slash plays a custom electric guitar in smoke,,,,,,,,,,,"""slash plays a custom electric guitar in smoke""","""Rocking the stage with electrifying riffs and iconic style.""",97
+97,a group of zebras in the desert,,,,,,,,,,,"""a group of zebras in the desert""","""Zebras roam freely in the golden hues of an African savanna at sunset.""",98
+98,princess diana reading a newspaper,,,,,,,,,,,"""princess diana reading a newspaper""","""Elegance and poise: A woman reads the morning newspaper with a thoughtful expression.""",99
+99,steve jobs is standing in front of a group of people,,,,,,,,,,,"""steve jobs is standing in front of a group of people""","""Leading with Vision: A Glimpse into the Future of Innovation""",100
+100,a car driving down a city street,,,,,,,,,,,"""a car driving down a city street""","""Iconic view of the World Trade Center towers in New York City, capturing the bustling urban life and architectural grandeur of the 1970s.""",101
