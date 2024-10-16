@@ -1,6 +1,6 @@
 # Probing the Abilities of LLMs to Address Presupposition Conflicts in Visual Question Answering
 
-This project explores the capabilities of large language models (LLMs) to handle presupposition conflicts in visual question answering tasks. The work involves multiple tasks that examine question classification, counterfactual reasoning, image-based question answering, **caption generation**, and **caption classification**.
+This project explores the capabilities of large language models (LLMs) to handle presupposition conflicts in visual question answering tasks. The work involves multiple tasks that examine **question classification**, **counterfactual reasoning**, **image-based question answering**, **caption generation**, and **caption classification**.
 
 ---
 
