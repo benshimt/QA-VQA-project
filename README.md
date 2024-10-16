@@ -22,9 +22,3 @@ This project explores the capabilities of large language models (LLMs) to handle
 
 ---
 
-### Directory Structure
-
-Each task has its own directory containing both `data/` and `src/` subdirectories:
-
-- `task_name/data/`: Contains all the data specific to the task.
-- `task_name/src/`: Contains the code implementation specific to the task.
